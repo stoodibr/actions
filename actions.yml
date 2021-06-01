@@ -1,0 +1,11 @@
+name: Test
+description: Just a test
+inputs:
+  name:
+    description: 'Your name'
+    default: 'No name provided'
+runs:
+  using: "composite"
+  steps:
+    - run: echo Hello ${{ inputs.name }}
+      shell: bash
