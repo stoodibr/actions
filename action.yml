@@ -1,8 +1,9 @@
-name: Test
-description: Just a test
+name: 'Test'
+description: 'Just a test'
 inputs:
   name:
     description: 'Your name'
+    required: true
     default: 'No name provided'
 runs:
   using: "composite"
